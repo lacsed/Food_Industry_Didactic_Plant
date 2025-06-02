@@ -1,1 +1,1 @@
-# Planta_didatica-industria_alimenticia
+# Planta didática - Indústria alimentícia
