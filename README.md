@@ -7,6 +7,20 @@ This repository contains all files related to the Food Industry prototype, which
 ![DiagramaProcesso](https://github.com/user-attachments/assets/c0f4e49f-f655-417e-a9c4-25ce678d64ac)
 
 The Food Industry prototype is designed to showcase a simulated industrial process involving various components:
+
+## Features
+- **Tank R:** Water reservoir.
+- **Tank M:** Where the Cleaning, Grinding, Pasteurization and Drying processes take place.
+- **Tank F:** Where the Fermentation, Mixing and Cooking processes take place.
+- **Agitators:** Acts in the Cleaning, Mixing and Fermentation processes.
+- **Mixer or Bottom Paddle:** Acts in the Mixing process.
+- **Exhaust/Ventilation Fan:** In the Grinding process, it rotates to the right and acts as an exhaust fan. In the Drying process, it rotates to the left and acts as a ventilation fan.
+- **Grinder:** Acts in the Grinding process.
+- **Heaters:** Acts in the Fermentation, Pasteurization and Cooking processes.
+- **Collers:** Acts in the Fermentation and Pasteurization processes.
+- **Water Pumps:** Responsible for filling and emptying the tanks in all processes.
+
+  
 ## Events 
 |EVENT |DESCRIPTION                                            |TYPE           |
 |------|-------------------------------------------------------|---------------|
@@ -62,9 +76,7 @@ The Food Industry prototype is designed to showcase a simulated industrial proce
 |QferM |Hot: Temperature of Fermentation in Tank M             |Non Controlable|
 |QpasM |Hot: Temperature of Pasteurization in Tank M           |Non Controlable|
 
-## Features
-- **Tank:** 
-- **Tank:**
+
 
 ## Contributions
 Contributions to the Food Industry prototype project are welcome. If you have suggestions for improvements, bug fixes, or new features, feel free to submit a pull request following the contribution guidelines outlined in the repository.
